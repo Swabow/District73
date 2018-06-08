@@ -25,4 +25,8 @@ router.get('/myautions',function(req,res,next){
 router.get('/myprofile',function(req,res,next){
   res.render('shop/user_profile',{title:'Warriorz botha'});
 });
+/*GET sign up page*/
+router.get('/signup',function(req,res,next){
+  res.render('shop/sign_up',{title:'Warriorz botha'});
+});
 module.exports = router;
