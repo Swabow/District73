@@ -27,6 +27,8 @@ app.use('/cart',indexRouter);
 app.use('/myautions',indexRouter);
 app.use('/myprofile',indexRouter);
 app.use('/signup',indexRouter);
+app.use('/upload',indexRouter);
+app.use('/edit',indexRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler

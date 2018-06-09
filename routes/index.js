@@ -29,4 +29,12 @@ router.get('/myprofile',function(req,res,next){
 router.get('/signup',function(req,res,next){
   res.render('shop/sign_up',{title:'Warriorz botha'});
 });
+/*GET upload page*/
+router.get('/upload',function(req,res,next){
+  res.render('shop/upload_product',{title:'Warriorz botha'});
+});
+/*GET upload page*/
+router.get('/edit',function(req,res,next){
+  res.render('shop/upload_product',{title:'Warriorz botha'});
+});
 module.exports = router;
